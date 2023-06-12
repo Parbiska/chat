@@ -1,0 +1,33 @@
+.login {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    &__form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__input {
+        font-size: 18px;
+        width: 240px;
+        height: 30px;
+        padding: 5px 15px;
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
+    &__button {
+        height: 42px;
+        width: 170px;
+        border-radius: 22px;
+        color: #fff;
+        background-color: #02a698;
+        font-size: 18px;
+        border: none;
+        &:hover {
+            cursor: pointer
+        }
+    }
+}
